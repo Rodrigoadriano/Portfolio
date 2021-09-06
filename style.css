@@ -22,3 +22,8 @@ p{
  margin-right: auto;
 }
 
+ul{
+    text-align: justify;
+    margin: auto;
+    width: 10%;
+}
