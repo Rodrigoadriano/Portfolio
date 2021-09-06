@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(85, 133, 180);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h1{
+    color: rgb(235, 249, 252);
+    text-align: center;
+}
+h2{
+    text-align: center;
+
+}
+p{
+    text-align: center;
+
+}
+img{    
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
