@@ -37,7 +37,7 @@ function updatefire(currentPixelIndex){
     const abaixo = currentPixelIndex + altura
     if (abaixo >= largura * altura){return}
 
-    const decay = Math.floor(Math.random() * 3)
+    const decay = Math.floor(Math.random() * 2)
     const intensidadeAbaixo = fireArray[abaixo]
     const Novaintensidade = intensidadeAbaixo - decay >= 0 ? intensidadeAbaixo - decay : 0
     fireArray[currentPixelIndex - decay] = Novaintensidade
