@@ -11,6 +11,8 @@ function start(){
     baseFogo()
     renderfogo()
     setInterval(calculafogo,50)
+   
+    document.getElementById("kero").setAttribute("value", "100")
 
 }
 
@@ -37,7 +39,7 @@ function updatefire(currentPixelIndex){
     const abaixo = currentPixelIndex + altura
     if (abaixo >= largura * altura){return}
 
-    const decay = Math.floor(Math.random() * 2)
+    const decay = Math.floor(Math.random() * 10)
     const intensidadeAbaixo = fireArray[abaixo]
     const Novaintensidade = intensidadeAbaixo - decay >= 0 ? intensidadeAbaixo - decay : 0
     fireArray[currentPixelIndex - decay] = Novaintensidade
@@ -84,11 +86,13 @@ function baseFogo (){
         let total = altura * largura
         const pixelIndex = (total - largura) + col
 
-        fireArray[pixelIndex] = 36
+        fireArray[pixelIndex] = 35
     }
 }
 
 start()
+
+
 
 
 

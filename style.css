@@ -9,20 +9,20 @@
 
 
 body{
-    background-color: #78A3FF;
+    background-color: #051620;
     font-family: Arial, Helvetica, sans-serif;
     font-family: 'Ubuntu';
     
 }
 
 h1{
-    color: #27488F;
+    color: #ff9100;
     text-align: center;
     font-family: 'Ubuntu';
 }
 h2{
     text-align: center;
-    color: #8F6B18;
+    color: #3D2E20;
 
 }
 p{
@@ -38,7 +38,8 @@ p{
  
 }
 
-ul{
+#redes{
+
     text-align: justify;
     margin: auto;
     width: 15%;
@@ -60,6 +61,13 @@ ul{
     color: orangered;
     font-size: 1.2em;
 }
+
+.azul:hover{
+
+    color: rgb(0, 68, 255);
+    font-size: 1.2em;
+}
+
 a{
     text-decoration: none;
 }
@@ -77,5 +85,40 @@ hr{
     padding: 15px;
     margin-top: 20px;
     margin-bottom: 15px;
+
+}
+
+
+.red{
+    background-color: red;
+    color: wheat;
+}
+
+#conteiner {
+display: flex;
+
+}
+
+#projetos { 
+    
+    display: flex;
+    margin: auto;
+
+   
+    
+    width: 400px
+
+}
+
+#projetos li {
+    margin: auto;
+    text-align: center;
+    list-style: none;
+
+    align: center;
+    padding: 10px;
+    background-color: grey;
+    margin: 5px;
+    border-radius: 5px;
 
 }
